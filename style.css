@@ -1,0 +1,700 @@
+* {
+    box-sizing: border-box;
+}
+
+.none {
+    display: none;
+}
+.body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+
+    background-color: #212833;
+    color: #EFF1ED;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.header-nav {
+    align-items: center;
+    display: flex;
+    column-gap: 30px;
+}
+.nav-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.5px;
+
+    position: relative;
+    text-decoration: none;
+    color: #EFF1ED;
+    transform: translateY(-1px);
+    
+}
+.nav-link:last-child {
+    margin-left: 35px;
+    align-items: center;
+    text-align: center;
+}
+.nav-link:hover::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: #ED1847;
+    
+}
+
+
+/* Main */
+.main {
+    padding-top: 175px;
+
+    height: 575px;
+    display: flex;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+}
+
+.title {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.09;
+    text-align: center;
+    color: #F4F6F8;
+}
+.sub-title {
+    margin: 0;
+    padding-top: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 0.5;
+    text-align: center;
+    color: #F4F6F8;
+}
+
+/* General */
+.general {
+    
+}
+.general-content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #7A899E;
+}
+.general-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7A899E;
+    align-items: center;
+}
+.general-svg {
+    margin-right: 5px;
+    align-items: center;
+}
+
+/* info */
+.canada-info {
+    color: #212833;
+}
+.canada-row {
+    display: flex;
+    justify-content: space-between;
+}
+.canada-text {
+    max-width: 560px;
+}
+.canada-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+     margin-bottom: 15px;
+}
+.canada-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    
+    margin-bottom: 30px;
+}
+.canada-address {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+}
+.canada-addres-work {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.canada-addres-work img {
+    margin-right: 10px;
+}
+.canada-time-work {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 70px;
+}
+.canada-time-work img {
+    margin-right: 10px;
+}
+.canada-map {
+    width: 400px;
+    height: 294px;
+}
+
+/* Logistik */
+.logistik {
+    color: #212833;
+    margin: 0;
+}
+
+.logistik-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.33;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+.logistik-container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+.img-logistik {
+    padding: 0;
+    height: 600px;
+}
+.logistik-text-info {
+    max-width: 560px;
+    height: 725px;
+}
+.logistik-text-info p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.logistik-text-info li {
+    list-style-type: none;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+.logistik-text-info li:last-child {
+    padding-bottom: 0;
+}
+.quadrat {
+    margin-right: 15px;
+}
+.info-logistik {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.end-logistik-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.44;
+    margin: 0;
+}
+.logistik-btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.logistik-link-1 {
+    padding: 17px 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+
+    width: 264px;
+    height: 50px;
+    left: 1000px;
+    top: 2121px;
+
+    background: #ED1847;
+    color: #F4F6F8;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.logistik-link-2 {
+    padding: 17px 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+
+    width: 264px;
+    height: 50px;
+    left: 1000px;
+    top: 2121px;
+
+    background: black;
+    color: #F4F6F8;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+ .logistik-link-1:hover {
+    opacity: 0.5;
+    transform: translateY(-3px);
+}
+
+
+ .logistik-link-2:hover {
+    opacity: 0.5;
+    transform: translateY(-3px);
+}
+
+/* Partners */
+
+.partners {
+
+}
+.title-partners {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    text-align: center;
+    color: #212833;
+}
+.img-company {
+    max-width: 620px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 70px;
+}
+
+/* other center  */
+.other {
+    margin: 0;
+    margin-bottom: 70px;
+    color: #212833;
+    text-align: center;
+}
+
+.other-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+.other-maps {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.other-text {
+    margin: 0;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.other-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    width: auto;
+    height: 50px;
+    background: #ED1847;
+    border-radius: 100px
+}
+.other-links { 
+    text-decoration: none;
+    color: #EFF1ED;
+}
+.other-btn:hover {
+    opacity: 0.5;
+    transform: translateY(-3px);
+}
+
+/* subscribe */
+.subscribe {
+    background-color: #6f7b8f;
+}
+.container {
+}
+.container-subscribe-info {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.text-subscribe-info  {
+    margin: 0;
+    margin-top: -15px;
+    align-items:center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+.text-subscribe-info img {
+    margin-right: 15px;
+}
+.input-subscribe {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.17;
+    padding: 17px 20px;
+
+    width: 400px;
+    height: 60px;
+    opacity: 0.5;
+    background: linear-gradient(134.17deg, #EEF1F5 4.98%, #E6E9EF 94.88%);
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.75), inset 5px 5px 10px rgba(166, 180, 200, 0.75);
+    border-radius: 10px;
+}
+.subscribe-btn {
+    width: 189px;
+    height: 50px;   
+    background: #ED1847;
+    box-shadow: -6.22px -6.22px 18.67px #3B4451, 6.22px 6.22px 18.67px #000000;
+    border-radius: 100px;
+    display: flex; 
+    justify-content: center;
+
+    transform: 0.2s ease-in;
+}
+.subscribe-btn:hover{
+    opacity: 0.5;
+    transform: translateY(-3px);
+}
+    
+
+.subscribe-btn-link {
+    padding: 17px 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* services */
+.services {
+    display: flex;
+    background-color: #F4F6F8;
+}
+
+.services-title {
+    text-align: center;
+    margin: 0;
+    color: #212833;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+}
+.services-title h1 {
+    margin: 50px 0 5px 0;
+}
+.services-subtitle {
+    margin: 0;
+    margin-bottom: 70px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.services-container {
+    display: flex;
+    column-gap: 44px;
+    margin-bottom: 70px;
+}
+.services-links {
+    text-decoration: none;
+}
+.services-links:hover {
+    opacity: 0.5;
+    transform: translateY(-3px);
+}
+
+/* Consultation */
+.consultation {
+    margin-bottom: 70px;
+      color: #212833;
+}
+.consultation-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-bottom: 5px;
+}
+.consultation-subtitle {
+    margin: 0;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.form-container {
+    max-width: 1200px;
+    height: 650px;
+    display: flex;
+    column-gap: 0;
+}
+.img-phone {
+    max-width: 480px;
+    max-height: 650px;
+}
+.consultation-form-page {
+    max-width: 720px;
+    max-height: 650px;
+    text-align: center;
+}
+
+.consultation-form-img {
+    margin: 40px 90px 5px 90px;
+}
+
+.consultation-form-text {
+    max-width: 720px;
+    margin-left: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #7A899E;
+    display: flex;
+}
+
+.consultation-form-text img {
+    padding-right: 15px;
+}
+
+.btn-consultation-form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 175px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn-consultation-form:hover {
+    opacity: 0.5;
+    transform: translateY(-3px);
+}
+
+.links-btn-consultation-form {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #F4F6F8;
+    text-decoration: none;
+    padding: 17px 40px;
+
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    width: 189px;
+    height: 50px;
+    background: #ED1847;
+    box-shadow: -6.22px -6.22px 18.67px #3B4451, 6.22px 6.22px 18.67px #000000;
+    border-radius: 100px;
+   justify-content: center;
+}
+.div-link-up {
+  margin-top: 490px;
+}
+.div-link-up:hover {
+    opacity: 0.5;
+    transform: translateY(-3px);
+}
+
+/* footer */
+.footer {
+    display: flex;
+    background-color: #212833;
+    color: #FFFFFF;
+}
+.container-flex-footer {
+    display: flex;
+}
+.container-footer-info {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    max-width: 285px;
+
+}
+.text-footer-info {
+    margin: 0;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.33;
+}
+.text-footer-contact {
+    max-width: 190px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.text-footer-contact  img {
+    margin-right: 12px; 
+}
+.footer-social {
+    max-width: 240px;
+    display: flex;
+}
+.links-social-footer {
+}
+.img-social-footer {
+    display: flex;
+    justify-content: center;
+    max-width: 75px;
+    max-height: 75px;
+    column-gap: 20px;
+}
+
+.footer-text-item {
+    display: flex;
+    
+}
+.list-footer-item {
+    list-style-type:none;
+}
+.list-footer-item p {
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 0.25;
+color: #EFF1ED;
+}
+
+.list-footer-item li{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2.5;
+    
+    opacity: 0.5;
+    text-decoration: none;
+}
+.list-footer-item a {
+    text-decoration: none;
+    color: #7A899E;
+}
+
+
+
+.language-footer {
+color: #EFF1ED;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+text-align: right;
+
+margin: 0;
+}
+.language-footer img {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.language-footer img:last-child {
+    margin-left: 9px;
+    margin-right: 0;
+}
+.footer-content-line::before {
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 97.25%;
+bottom: 2.75%;
+
+
+    content: "";
+    border: 1px solid #959595;
+
+}
+
+.footer-content-line {
+    margin-top: 40px;
+    margin-bottom: ;
+    text-align: center;
+}
+
+.text-footer-down {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.57;
+
+    color: #FFFFFF;
+}
+.text-footer-down span {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
